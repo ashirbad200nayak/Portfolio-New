@@ -15,9 +15,9 @@ export const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: faGithub, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: faLinkedin, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: faTwitter, href: 'https://twitter.com/yourusername', label: 'Twitter' },
+    { icon: faGithub, href: 'https://github.com/ashirbad200nayak/', label: 'GitHub' },
+    { icon: faLinkedin, href: 'https://www.linkedin.com/in/ashirbad-nayak/', label: 'LinkedIn' },
+    { icon: faTwitter, href: 'https://x.com/AshirbadNayak_0?t=1mszE5BjZRuTtP7JtzKjsg&s=09', label: 'Twitter' },
   ];
 
   return (
@@ -93,7 +93,7 @@ export const Footer = () => {
                 icon={faHeart} 
                 className="w-4 h-4 text-red-500 animate-pulse" 
               />
-              {' '}in Chennai
+              {' '}in Cuttack
             </p>
           </div>
         </div>

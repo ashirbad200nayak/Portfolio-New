@@ -59,7 +59,7 @@ export const AboutMe = () => {
             >
               Product Designer Portfolio
             </a>
-            , other cool things
+            , other cool AI stuffs.
           </p>
 
           {/* Secondary tagline */}

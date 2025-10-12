@@ -171,7 +171,7 @@ export const ContactMe = () => {
                 <div>
                   <p className="text-sm text-slate-500 dark:text-slate-400">Email</p>
                   <a href="mailto:your.email@example.com" className="text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
-                    your.email@example.com
+                    ashirbad201nayak@gmail.com
                   </a>
                 </div>
               </div>
@@ -185,7 +185,7 @@ export const ContactMe = () => {
                 </div>
                 <div>
                   <p className="text-sm text-slate-500 dark:text-slate-400">Location</p>
-                  <p className="text-slate-900 dark:text-white">Chennai, Tamil Nadu, IN</p>
+                  <p className="text-slate-900 dark:text-white">Cuttack, Odisha, IN</p>
                 </div>
               </div>
             </div>
@@ -195,7 +195,7 @@ export const ContactMe = () => {
               <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">Follow me on</p>
               <div className="flex gap-3">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/ashirbad200nayak/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 hover:text-slate-900 dark:hover:text-white transition-all"
@@ -203,7 +203,7 @@ export const ContactMe = () => {
                   <FontAwesomeIcon icon={faGithub} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/ashirbad-nayak/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 hover:text-slate-900 dark:hover:text-white transition-all"
@@ -211,7 +211,7 @@ export const ContactMe = () => {
                   <FontAwesomeIcon icon={faLinkedin} className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com/AshirbadNayak_0?t=1mszE5BjZRuTtP7JtzKjsg&s=09"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700 hover:text-slate-900 dark:hover:text-white transition-all"
