@@ -26,14 +26,29 @@ export const SOCIAL_LINKS: {
 
 export const PROJECTS: {
   name: string;
+  description: string;
   url?: string;
   demoLink?: string;
   imageUrl?: string;
+  category?: string;
+  tags?: string[];
 }[] = [
   {
-    name: 'Project 1',
+    name: 'LegalAI',
+    description: 'AI-powered legal document analysis and contract review platform helping lawyers and businesses automate legal workflows.',
+    imageUrl: '/legalAi.png', // Just reference the path in public folder
+    url: 'github.com/yourusername/legalai',
+    demoLink: 'legalai.example.com',
+    category: 'Full-Stack',
+    tags: ['Next.js', 'Python', 'OpenAI', 'TailwindCSS', 'PostgreSQL'],
   },
   {
-    name: 'Project 2',
+    name: 'Product Developer portfolio',
+    description: 'A cool and minimalist portfolio for a Proudct Designer.',
+    imageUrl: '/productDeveloper.png',
+    url: 'github.com/yourusername/vassure',
+    demoLink: 'vassure.example.com',
+    category: 'SaaS',
+    tags: ['React', 'Node.js', 'MongoDB', 'TailwindCSS'],
   },
 ];
