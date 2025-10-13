@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-type Props = {
+export type Props = {
   title: string;
   src: string;
   slug?: string;
   priority?: boolean;
+  className?: string;
 };
 
 export const CoverImage = ({ title, src, slug, priority = false }: Props) => {
