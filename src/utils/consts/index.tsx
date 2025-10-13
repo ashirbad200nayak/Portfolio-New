@@ -38,7 +38,7 @@ export const PROJECTS: {
     description: 'AI-powered legal document analysis and contract review platform helping lawyers and businesses automate legal workflows.',
     imageUrl: '/legalAi.png', // Just reference the path in public folder
     url: 'https://github.com/ashirbad200nayak/Legal-AI',
-    demoLink: 'lhttps://legal-ai-rosy.vercel.app/',
+    demoLink: 'https://legal-ai-rosy.vercel.app/',
     category: 'SaaS',
     tags: ['Next.js', 'Python', 'OpenAI', 'TailwindCSS', 'PostgreSQL'],
   },

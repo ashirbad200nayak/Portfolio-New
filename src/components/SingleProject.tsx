@@ -45,7 +45,7 @@ export const SingleProject = (props: SingleProjectProps) => {
         <div className='flex w-full flex-row items-center gap-2 text-xs'>
           {project.url ? (
             <a
-              href={`//${project.url}`}
+              href={`${project.url}`}
               target='_blank'
               className='flex items-center gap-2 rounded-full px-2 py-1 hover:bg-slate-600 hover:text-white dark:hover:bg-slate-950 dark:hover:text-zinc-300'
             >
@@ -60,7 +60,7 @@ export const SingleProject = (props: SingleProjectProps) => {
           )}
           {project.demoLink ? (
             <a
-              href={`//${project.demoLink}`}
+              href={`${project.demoLink}`}
               target='_blank'
               className='flex items-center gap-2 rounded-full px-2 py-1 hover:bg-slate-600 hover:text-white dark:hover:bg-slate-950 dark:hover:text-zinc-300'
             >
