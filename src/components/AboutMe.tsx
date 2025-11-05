@@ -47,20 +47,10 @@ export const AboutMe = () => {
               </a>
             </div>
           )}
-
-          {/* Name with enhanced gradient - ANIMATED */}
-          {/* <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-tight tracking-tight animate-fade-in-up">
-            <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient inline-block hover:scale-105 transition-transform duration-300 cursor-default">
-              Hi, I'm {publication.author.name}
-            </span>
-            <span className="block text-4xl md:text-5xl lg:text-6xl mt-4 text-slate-700 dark:text-slate-300 font-bold animate-wave inline-block">
-              👋
-            </span>
-          </h1> */}
           
           {/* Name with enhanced gradient - ANIMATED */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-tight tracking-tight animate-fade-in-up">
-            <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-teal-300 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient inline-block hover:scale-105 transition-transform duration-300 cursor-default">
+            <span className="bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient inline-block hover:scale-105 transition-transform duration-300 cursor-default">
               Hi, I'm {publication.author.name}
             </span>
             <span className="block text-4xl md:text-5xl lg:text-6xl mt-4 text-white font-bold animate-wave inline-block">
