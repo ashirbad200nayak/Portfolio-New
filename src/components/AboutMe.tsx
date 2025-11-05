@@ -50,7 +50,7 @@ export const AboutMe = () => {
           
           {/* Name with enhanced gradient - ANIMATED */}
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-black leading-tight tracking-tight animate-fade-in-up">
-            <span className="bg-gradient-to-r from-white via-gray-100 to-white bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient inline-block hover:scale-105 transition-transform duration-300 cursor-default">
+            <span className="text-white inline-block hover:scale-105 transition-transform duration-300 cursor-default">
               Hi, I'm {publication.author.name}
             </span>
             <span className="block text-4xl md:text-5xl lg:text-6xl mt-4 text-white font-bold animate-wave inline-block">
